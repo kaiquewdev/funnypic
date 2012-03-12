@@ -5,28 +5,55 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.006897 seconds on emulator to get ready
+[DEBUG] waited 0.004418 seconds on emulator to get ready
 [DEBUG] br.com.beginti.funnypic installed? True
 [WARN] Fastdev enabled, but server isn't running, deploying normally
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/index.html => /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/bin/assets/Resources/index.html
-[INFO] Tiapp.xml unchanged, skipping class generation
+[TRACE] COPYING MODIFIED FILE: /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/app.js => /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/bin/assets/Resources/app.js
+[TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
+[DEBUG] copying app icon: /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
 [DEBUG] found drawable-long-land-hdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-land-hdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-long-land-hdpi/background.png
 [DEBUG] found drawable-notlong-port-ldpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-port-ldpi/background.png
 [DEBUG] found drawable-notlong-land-mdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-land-mdpi/background.png
 [DEBUG] found drawable-notlong-port-hdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-port-hdpi/background.png
 [DEBUG] found drawable-notlong-port-mdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG] found drawable-notlong-land-hdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-land-hdpi/background.png
 [DEBUG] found drawable-long-port-ldpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-port-ldpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-long-port-ldpi/background.png
 [DEBUG] found drawable-long-land-ldpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-land-ldpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-long-land-ldpi/background.png
 [DEBUG] found drawable-long-port-hdpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-long-port-hdpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-long-port-hdpi/background.png
 [DEBUG] found drawable-notlong-land-ldpi splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found splash screen at /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicApplication.java to javac build list
+[DEBUG] adding /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/R.java to javac build list
+[DEBUG] adding /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicAppInfo.java to javac build list
+[DEBUG] adding /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicActivity.java to javac build list
+[DEBUG] Building Java Sources: "/home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicApplication.java" "/home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/R.java" "/home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicAppInfo.java" "/home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/gen/br/com/beginti/funnypic/FunnypicActivity.java"
 [INFO] Waiting for SDCard to become available..
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: /home/kaique/Documentos/Development/projects/TitaniumProjects/funnypic/build/android/bin/app-unsigned.apk
 [DEBUG] from resource zip => assets/Resources/img/babyface.jpg
+[DEBUG] from resource zip => assets/Resources/img/bigode.png
 [DEBUG] from resource zip => assets/Resources/img/bob.jpg
+[DEBUG] from resource zip => assets/Resources/stuffs/ccv.js
+[DEBUG] from resource zip => assets/Resources/stuffs/face.js
+[DEBUG] from resource zip => assets/Resources/stuffs/jquery-1.7.1.min.js
+[DEBUG] from resource zip => assets/Resources/stuffs/jquery.facedetection.js
 [DEBUG] from resource zip => assets/Resources/stuffs/script.js
+[DEBUG] from resource zip => assets/Resources/stuffs/style.css
 [DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
 [DEBUG] from resource zip => assets/Resources/KS_nav_views.png
 [DEBUG] from resource zip => assets/Resources/app.js
@@ -73,7 +100,7 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.004207 seconds on emulator to get ready
+[DEBUG] waited 0.005776 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Launching application ... funnypic
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=br.com.beginti.funnypic/.FunnypicActivity }

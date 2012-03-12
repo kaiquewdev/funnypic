@@ -8,7 +8,26 @@ var wview = Ti.UI.createWebView({
 });
 main.add(wview);
 
+var item = Ti.UI.createImageView({
+	image: '/img/bigode.png',
+	width: 200,
+	height: 60
+});
+main.add(item);
+
 var tabGroup = Ti.UI.createTabGroup();
+
+var curX, curY;
+
+item.addEventListener('touchstart', function ( e ) {
+	curY = e.y;
+	curX = e.x;
+});
+
+item.addEventListener('touchmove', function ( e ) {
+	e.source.top = e.y - curY;
+	e.source.left = e.x - curX;
+});
 
 var tab1 = Ti.UI.createTab({
 	title: 'Funny Pic',
