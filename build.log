@@ -5,7 +5,7 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.004375 seconds on emulator to get ready
+[DEBUG] waited 0.006931 seconds on emulator to get ready
 [DEBUG] br.com.beginti.funnypic installed? True
 [WARN] Fastdev enabled, but server isn't running, deploying normally
 [INFO] Copying project resources..
@@ -48,6 +48,7 @@ Logfile initialized
 [DEBUG] from resource zip => assets/Resources/img/babyface.jpg
 [DEBUG] from resource zip => assets/Resources/img/bigode.png
 [DEBUG] from resource zip => assets/Resources/img/bob.jpg
+[DEBUG] from resource zip => assets/Resources/models/screen.js
 [DEBUG] from resource zip => assets/Resources/stuffs/ccv.js
 [DEBUG] from resource zip => assets/Resources/stuffs/face.js
 [DEBUG] from resource zip => assets/Resources/stuffs/jquery-1.7.1.min.js
@@ -100,7 +101,7 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.007993 seconds on emulator to get ready
+[DEBUG] waited 0.006554 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Launching application ... funnypic
 [TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=br.com.beginti.funnypic/.FunnypicActivity }

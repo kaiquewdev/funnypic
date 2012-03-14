@@ -1,3 +1,5 @@
+Ti.include('models/screen.js');
+
 // this sets the background color of the master UIView (when there are no windows/tab groups on it)
 Titanium.UI.setBackgroundColor('#fff');
 
@@ -15,9 +17,10 @@ main.add(wview);
 
 var item = Ti.UI.createImageView({
 	image: '/img/bigode.png',
-	width: 200,
-	height: 60,
-	zIndex: 10
+	width: (50).percentOf(200),
+	height: (50).percentOf(60),
+	zIndex: 10,
+	draggable: true
 });
 main.add(item);
 
@@ -34,13 +37,16 @@ item.addEventListener('touchstart', function(e) {
 });
 //perform drag and drop
 item.addEventListener("touchmove", function(e) {
-	var deltaX = e.x - curX, deltaY = e.y - curY;
-	olt = olt.translate(deltaX, deltaY);
+	if ( e.source.draggable ) {
+		var deltaX = e.x - curX, deltaY = e.y - curY;
+		olt = olt.translate(deltaX, deltaY);
 
-	e.source.transform = olt;
-	e.source.duration = 30;
-	curX = e.x;
-	curY = e.y;
+		e.source.transform = olt;
+		e.source.duration = 30;
+		
+		curX = e.x;
+		curY = e.y;
+	}
 });
 
 var tab1 = Ti.UI.createTab({
